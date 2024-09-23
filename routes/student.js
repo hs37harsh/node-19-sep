@@ -7,7 +7,7 @@ router.post('/add/student',(req,res)=>{
 
 })
 router.get('/students',(req,res)=>{
-    studentcontroller.getStudents(req,res)
+    studentcontroller.getStudent(req,res)
 
 })
 module.exports=router
